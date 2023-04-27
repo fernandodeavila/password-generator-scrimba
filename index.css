@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+h1{
+    font-family:'Karla', sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 115px 144px 10px 52px
+}
+#titulo > span{
+    color: #4ADF86;
+}
+h3{
+    font-family: 'Inter';
+    font-size:20px;
+    font-weight: 400;
+    color: #D5D4D8; 
+    margin: 0px 126px 0px 52px
+}
+input{
+    background-color: #1F2937;
+    border: 2px solid #10B981;
+    color: #FFFFFF;
+    margin: 25px 397px 0px 52px;
+    border-radius: 5px;
+    padding:0px 10px ;
+    width: 100px;
+    height: 35px;
+    font-size: 12px;
+
+}
+#symbols-numbers{
+    display: flex;
+    margin:30px 253px 0px 52px;
+    width: 109px;
+    height: 31px;
+    
+    
+}
+.sn{
+    background-color:#10B981 ;
+    border: 2px solid #10B981;
+    border-radius: 5px;
+    color: #D5D4D8;
+    font-size: 12px;
+}
+#numbers-btn{
+  margin-left: 0px;
+
+}
+#symbols-btn{
+    margin-right:25px;
+}
+
+#generate-btn{
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    padding:10px 17px 10px 15px;
+    color: #FFFFFF;
+    font-size: 16px; 
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    margin: 25px 307px 0px 52px
+    
+}
+
+hr{
+    width: 446px; 
+    margin:35px 52px 35px 52px; 
+    color: #273549 
+}
+#passwords{
+    display: flex;
+    margin:0px 52px 115px 27px;
+}
+.space{
+    background-color: #273549;
+    width: 211px;
+    height: 39px;  
+    margin-left: 25px;
+    border-radius:6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px 10px;
+    
+    
+       
+}
+.space>p{
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 500px;
+       color: #10B981;
+       text-align: center;
+    
+}
